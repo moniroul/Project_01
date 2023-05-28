@@ -1,0 +1,182 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.logo-name{
+	width: 100px;
+	color: #ffffff;
+	height: 30px;
+	font-size: 26;
+}
+.navbar {
+	background-image: linear-gradient(to right, #56e26dd3, #22a816)  ;
+	width: 100%;
+	/* height: 60px; */
+
+}
+ 
+.navbar .navbar-nav .nav-item .nav-link {
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	border-radius: 4px;
+	padding: 2px 10px;
+	 
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+	 border: 2px solid #ffffff;
+
+}
+
+/*---------Banner under------------*/
+.banner {
+	background-image: linear-gradient(to right, #56e26dd3, #22a816)  ;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.banner h2 {
+	font-weight: 600;
+	color: rgb(239, 239, 239);
+	font-size: 40px;
+}
+
+.banner p {
+	color: white;
+}
+
+.banner a {
+	color: white !important;
+	text-decoration: none;
+}
+
+.banner img {
+	width: 50px; 
+}
+
+.wave {
+	width: 100% !important;
+	 
+}
+
+.fa-bars {
+	color: white;
+
+}
+
+/*------ services section --------*/
+
+.title {
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+
+}
+
+.title:after {
+	content: '';
+	display: block;
+	background: #56e26dd3;
+	width: 200px;
+	height: 5px;
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+
+.services-img {
+	width: 100px;
+}
+
+.services-button {
+	background-image: linear-gradient(to right, #56e26dd3, #22a816)  ;
+	color: white;
+	border: none;
+	width: 120px;
+	height: 40px;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.services-button:hover {
+	color: white;
+}
+
+/*------about section start here------*/
+
+#about {
+	background: #f8f9fa;
+}
+
+/*Testimonials section start here*/
+
+.user-image {
+	width: 80px;
+}
+
+.user-details {
+
+	border-left: 4px solid #56e26dd3;
+}
+
+/*social section stsrt here*/
+
+.social {
+	background: #f8f9fa;
+}
+
+.social a img {
+	transition: 0.5s;
+
+}
+
+.social a img {
+	width: 60px;
+}
+
+.social a img:hover {
+	transform: translateY(-10px);
+}
+
+
+
+/*------- footer  ---------*/
+
+.footer {
+	background-image:  linear-gradient(to right, #56e26dd3, #22a816)  ;
+}
+
+.footer-desing {
+	width: 100%;
+}
+ 
+
+#footer-contact .fas {
+	font-size: 25px;
+	background-image: linear-gradient(to right, #56e26dd3, #22a816)  ;
+	width: 40px;
+	height: 40px;
+
+	border-radius: 4px;
+	padding-top: 7px;
+	margin-right: 10px;
+
+}
+ 
+
+#newsletter input {
+	border: none !important;
+	border-radius: 0 !important;
+	box-shadow: 0 !important;
+}
+
+#newsletter-button {
+	margin-top: 20px;
+	border: none !important;
+	border-radius: 0 !important;
+	box-shadow: 0 !important;
+	background-image:  linear-gradient(to right, #56e26dd3, #22a816)  ;
+}

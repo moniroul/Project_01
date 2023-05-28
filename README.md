@@ -1,2 +1,1 @@
-# bootstrap-projects-2
-bootstrap/projects-2
+# A Web Project for hpi assignment 
